@@ -1,0 +1,12 @@
+$ g++ transposition.cpp -O2 -std=c++17 -o transposition
+$ ./transposition
+Plaintext: attack at once
+
+[Rail Fence] Cipher: actctaka net o
+[Rail Fence] Decipher: attack at once
+
+[Columnar] Cipher: c Xtact nateako
+[Columnar] Decipher: attack at onceX
+
+[Double Columnar] Cipher:  teccttnkaaoX a
+[Double Columnar] Decipher: attack at onceX
